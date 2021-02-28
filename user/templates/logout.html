@@ -1,0 +1,10 @@
+{% extends 'base_theme/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+    <h4>You Have Been Log out Succesfully</h4>
+    <div class="">
+        <a href="{% url 'custom-login' %}">Login</a>
+    </div>
+
+{% endblock %}
